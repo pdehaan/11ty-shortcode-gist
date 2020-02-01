@@ -1,0 +1,29 @@
+{
+  "name": "11ty-shortcode-gist",
+  "description": "Testing how to embed GitHub gists into a blog using shortcodes",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-shortcode-gist/issues"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "del": "^5.1.0"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-shortcode-gist#readme",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "gist",
+    "shortcode"
+  ],
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-shortcode-gist.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

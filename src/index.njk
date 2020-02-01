@@ -1,0 +1,11 @@
+---
+title: Testing embedding a gist via a script tag
+username: pdehaan
+gistId: 2230cba6b580e11d2a02d220723748d7
+---
+
+{% for file in ["search.js"] %}
+  {%- gist username="dan",
+      gistId=gistId,
+      file=file -%}
+{% endfor %}
